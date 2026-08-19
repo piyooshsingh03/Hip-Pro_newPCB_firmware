@@ -1,0 +1,12 @@
+11:41:17 **** Incremental Build of configuration Debug for project RIPPLEV0.1 ****
+make -j16 all 
+arm-none-eabi-gcc -o "RIPPLEV0.1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\embedded Back-Up data\Production Code\Hip_Pro RTOS\RIPPLE CODE V0.1\RIPPLEV0.1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RIPPLEV0.1.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: RIPPLEV0.1.elf section `.text' will not fit in region `FLASH'
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: region `FLASH' overflowed by 2852 bytes
+C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: RIPPLEV0.1.elf has a LOAD segment with RWX permissions
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:68: RIPPLEV0.1.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+11:41:18 Build Failed. 3 errors, 1 warnings. (took 444ms)
+

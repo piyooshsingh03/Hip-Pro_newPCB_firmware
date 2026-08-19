@@ -1,0 +1,6 @@
+../Core/Src/i2c.c:20:19:ICM20948_WriteRegister	32	static
+../Core/Src/i2c.c:26:19:SelectBank	16	static
+../Core/Src/i2c.c:30:9:ICM20948_Init	40	static
+../Core/Src/i2c.c:82:6:ICM20948_Read_Accel	56	static
+../Core/Src/i2c.c:100:6:ICM20948_Read_Gyro	56	static
+../Core/Src/i2c.c:118:6:ICM20948_Read_Temp	56	static
