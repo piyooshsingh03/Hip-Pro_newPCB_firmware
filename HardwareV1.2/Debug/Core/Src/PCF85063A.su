@@ -1,0 +1,14 @@
+../Core/Inc/PCF85063A.h:15:16:DecimalToBCD	16	static
+../Core/Inc/PCF85063A.h:20:16:BCDToDecimal	16	static
+../Core/Src/PCF85063A.c:12:19:PCF85063A_WriteRegister	32	static
+../Core/Src/PCF85063A.c:24:19:PCF85063A_ReadRegister	40	static
+../Core/Src/PCF85063A.c:40:19:PCF85063A_WriteRegisters	56	static
+../Core/Src/PCF85063A.c:63:19:PCF85063A_ReadRegisters	40	static
+../Core/Src/PCF85063A.c:78:19:PCF85063A_SetTime	24	static
+../Core/Src/PCF85063A.c:95:19:PCF85063A_GetTime	24	static
+../Core/Src/PCF85063A.c:122:13:IsLeapYear	16	static
+../Core/Src/PCF85063A.c:142:16:DaysInMonth	16	static
+../Core/Src/PCF85063A.c:169:13:UnixToCalendar	40	static
+../Core/Src/PCF85063A.c:229:19:PCF85063A_SetUnixTime	32	static
+../Core/Src/PCF85063A.c:236:17:CalendarToUnix	32	static
+../Core/Src/PCF85063A.c:274:19:PCF85063A_GetUnixTime	32	static
